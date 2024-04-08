@@ -1,0 +1,66 @@
+body{
+    background-color: #e7e7e7;
+    margin: 0;
+}
+
+.imagem{
+    width: 200px;
+    height: 200px;
+}
+
+h2{
+    text-align: center;
+    border: solid 1px #ffffff;
+    background-color: #ffffff;
+    color: #04c9f4;
+    padding: 8px;
+}
+
+#contener{
+    text-align: center;
+    border: solid 1px #d9d9d9;
+    background-color: #d9d9d9;
+    width: 44vh;
+    height: 44vh;
+    display: grid;
+    grid-template-areas: none;
+    padding-top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.entrar{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #04c9f4;
+    border: solid 1px #04c9f4;
+    padding: 7px;
+    position: absolute;
+    top: 82%;
+    left: 30%;
+    width: 15vh;
+}
+
+.usuario{
+    padding: 8px;
+    border: solid 1px #ffffff;
+    font-size: 2vh;
+    outline: none;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    width: 35vh;
+}
+
+.senha{
+    padding: 8px;
+    border: solid 1px #ffffff;
+    font-size: 2vh;
+    outline: none;
+    position: absolute;
+    top: 68%;
+    left: 10%;
+    width: 35vh;
+}

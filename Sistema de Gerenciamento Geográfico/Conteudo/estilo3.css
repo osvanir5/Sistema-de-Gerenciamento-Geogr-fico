@@ -1,0 +1,224 @@
+body{
+    background-color: #E7E7E7;
+    margin: 0;
+    display: grid;
+    grid-template-areas:
+    "menulateral cabesa cabesa"
+    "menulateral logo logo"
+    "menulateral rodape rodape";
+    grid-template-columns: auto auto auto;
+    grid-template-rows:auto 90vh auto;
+}
+
+.cabesa{
+    border: solid 1px #04C9F4;
+    background-color: #04C9F4;
+    color: #ffffff;
+    grid-area: cabesa;
+}
+
+h3{
+    margin-left: 6px;
+}
+
+.menulateral{
+    grid-area: menulateral;
+    border: solid 1px #d9d9d9;
+    background-color: #d9d9d9;
+    text-align: center;
+}
+
+#contener{
+    border: solid 1px #d9d9d9;
+    background-color: #d9d9d9;
+    width: 65%;
+    height: 24%;
+    display: grid;
+    grid-template-areas: none;
+    padding-top: 20px;
+    position: absolute;
+    top: 22%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.rodape{
+    grid-area: rodape;
+    border: solid 1px #E7E7E7;
+    background-color: #ffffff;
+    color: #04C9F4;
+    text-align: center;
+}
+
+.a{
+    border: solid 1px #ffffff;
+    background-color: #d9d9d9;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+}
+
+.b{
+    border: solid 1px #ffffff;
+    background-color: #d9d9d9;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+}
+
+.c{
+    border: solid 1px #ffffff;
+    background-color: #04C9F4;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+}
+
+.d{
+    border: solid 1px #ffffff;
+    background-color: #04C9F4;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+}
+
+.e{
+    border: solid 1px #ffffff;
+    background-color: #04C9F4;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+}
+
+.f{
+    border: solid 1px #ffffff;
+    background-color: #04C9F4;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+}
+
+.texto1{
+    border: solid 1px #d9d9d9;
+    color: #ffffff;
+    position: absolute;
+    top: 1.5vh;
+    left: 4vh;
+    transform: translate(-50%, -50%);
+}
+
+.input1{
+    outline: none;
+    border: solid 1px #ffffff;
+    padding: 8px;
+    font-size: 2vh;
+    position: absolute;
+    top: 6.5vh;
+    left: 15vh;
+    transform: translate(-50%, -50%);
+}
+
+.texto3{
+    border: solid 1px #d9d9d9;
+    color: #ffffff;
+    position: absolute;
+    top: 8.7vh;
+    left: 4vh;
+    transform: translate(-50%, -50%);
+}
+
+.input3{
+    outline: none;
+    border: solid 1px #ffffff;
+    padding: 8px;
+    font-size: 2vh;
+    width: 10vh;
+    position: absolute;
+    top: 14vh;
+    left: 7.5vh;
+    transform: translate(-50%, -50%);
+}
+
+.texto4{
+    border: solid 1px #d9d9d9;
+    color: #ffffff;
+    position: absolute;
+    top: 16vh;
+    left: 4.3vh;
+    transform: translate(-50%, -50%);
+}
+
+.input4{
+    outline: none;
+    border: solid 1px #ffffff;
+    padding: 8px;
+    font-size: 2vh;
+    width: 10vh;
+    position: absolute;
+    top: 21.3vh;
+    left: 7.5vh;
+    transform: translate(-50%, -50%);
+}
+
+.buscar{
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border: solid 1px #04C9F4;
+    background-color: #04C9F4;
+    padding: 6px;
+    
+}
+
+.excluir{
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border: solid 1px red;
+    background-color: red;
+    padding: 6px;
+    
+}
+
+.cancelar{
+    text-align: center;
+    text-decoration: none;
+    color: #04C9F4;
+    border: solid 1px #E7E7E7;
+    background-color: #E7E7E7;
+    padding: 6px;
+    
+}
+
+.salvar{
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border: solid 1px #04C9F4;
+    background-color: #04C9F4;
+    padding: 6px;
+    
+}
+
+.botoes{
+    background-color: #E7E7E7;
+    display: flex;
+    width: 148%;
+    height: 600px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+}
